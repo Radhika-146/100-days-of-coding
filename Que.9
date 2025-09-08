@@ -1,0 +1,15 @@
+Q9: Write a program to calculate simple and compound interest for given principal, rate, and time.
+
+#include <stdio.h>
+#include <math.h>
+void main()
+{
+     float p,r,n;
+     printf("entre principal ant rate of interest and years");
+     scanf("%f%f%f",&p,&r,&n);
+     float ca=p*pow((1+(r/100)),n);
+     float si=(p*r*n)/100;
+     printf("calculated si is %f",si);
+     float ci=ca-p;
+     printf("\ncalculated ci is %f",ci);
+}
