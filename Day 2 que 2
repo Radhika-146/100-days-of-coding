@@ -18,6 +18,5 @@ int main()
    printf("sum is: %d",pro);
    quo=num1/num2
    printf("quo is: %d",quo);
-   
    return 0;
 }
