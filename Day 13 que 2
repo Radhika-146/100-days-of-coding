@@ -1,1 +1,13 @@
-
+// Write a program to print numbers from 1 to n.
+#include <stdio.h>
+int main()
+{
+  int n;
+  printf("enter the num");
+  scanf("%d",&n);
+  for (int i=1; n>=i; i++)
+  {
+      printf("%d ",i);
+  }
+  return 0;
+}
