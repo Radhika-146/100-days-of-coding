@@ -1,1 +1,32 @@
+//Write a program to calculate electricity bill based on units consumed with these rates: 
 
+#include <stdio.h>
+int main()
+{
+    int u,f=1;
+    printf("enter the num units");
+    scanf("%d",&u);
+    if (u<=100)
+    {
+       f=u*5;
+       printf("Bill: Rs.%d",f);
+    }
+    else if (u>=101 && u<=200)
+    {
+        f=500+(u-100)*7;
+        printf("Bill: Rs.%d",f);
+    }
+     else if (u>=201 && u<=300)
+    {
+        f=500+700+(u-200)*10;
+        printf("Bill: Rs.%d",f);
+    }
+    else if (u>=301)
+    {
+       f=500+700+1000+(u-300)*12;
+       printf("Bill: Rs.%d",f);
+
+    }
+
+    return 0;
+}
