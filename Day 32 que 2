@@ -1,0 +1,46 @@
+//Merge two arrays.
+
+#include <stdio.h>
+int main()
+{
+    int n1;
+    printf("enter the num");
+    scanf("%d",&n1);
+    int arr1[n1];
+    
+    printf("enter elements:");
+    for (int i=0; i<n1; i++)
+    {
+      scanf("%d",&arr1[i]);  
+    }
+    
+    int n2;
+    printf("enter the num for amother array");
+    scanf("%d",&n2);
+    int arr2[n2];
+    
+    printf("enter elements:");
+    for (int j=0; j<n2; j++)
+    {
+      scanf("%d",&arr2[j]);  
+    }
+    
+    int n3,a,b;
+    n3=n1+n2;
+    int arr3[n3];
+    
+    for (int i=0; i<n1; i++)
+    {
+      a=arr3[i];
+      scanf("%d",&arr3[a]);
+    }
+    for (int j=0; j<n2; j++)
+    {
+      b=arr3[j];
+      scanf("%d",&arr3[b]);
+    }
+    
+    
+    
+    return 0;
+}
