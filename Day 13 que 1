@@ -1,1 +1,46 @@
+// Write a program to implement a basic calculator using switch-case for +, -, *, /, %.
+#include <stdio.h>
+int main()
+{
+    int n1,n2;
+    char op;
+    printf("enter a number");
+    scanf("%d",&n1);
+    printf("enter another number");
+    scanf("%d",&n2);
+    printf("enter opertor");
+    scanf("\n%c",&op);
+    switch(op)
+    {
+     case '+':
+       int sum;
+       sum=n1+n2;
+       printf("%d",sum);
+       break;
+    case '-':
+       int sub=n1-n2;
+       printf("%d",sub);
+       break;
+    case '*':
+       int mul=n1*n2;
+       printf("%d",mul);
+       break;
+    case '/':
+       int divd=n1/n2;
+       printf("%d",divd);
+       break;
+    case '%':
+       int rem=n1%n2;
+       printf("%d",rem);
+       break;
+    }
+    return 0;
+}
 
+output:
+enter a number45
+enter another number32
+enter opertor*
+1440
+
+=== Code Execution Successful ===
