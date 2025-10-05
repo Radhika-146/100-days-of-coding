@@ -1,0 +1,33 @@
+//Count even and odd numbers in an array..
+
+#include <stdio.h>
+int main()
+{
+    int n,s=0;
+    printf("enter the num");
+    scanf("%d",&n);
+    int arr[n];
+    
+    printf("enter elements:");
+    for (int i=0; i<n; i++)
+    {
+      scanf("%d",&arr[i]);  
+    }
+    
+    int ecount=0,ocount=0;
+    for (int i=0; i<n; i++)
+    {
+      if(arr[i]%2==0)
+      {
+          ecount++;
+      }
+      if(arr[i]%2!=0)
+      {
+          ocount++;
+      }
+    }
+    printf("even elements=%d",ecount);
+    printf("\nodd elements=%d",ocount);
+    
+    return 0;
+}
