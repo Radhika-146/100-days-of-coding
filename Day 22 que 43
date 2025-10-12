@@ -1,6 +1,6 @@
 //Write a program to check if a number is a strong number.
 
-//Strong number-Sum of factorial of digits is equal to number.
+//Strong number-Sum of factorial of digits is equal to number
 #include <stdio.h>
 int main() 
 {
