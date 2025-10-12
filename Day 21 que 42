@@ -1,6 +1,6 @@
 // Write a program to check if a number is a perfect number.
 
-//Perfect number-Sum of factors excluding the  number is equal to the number.
+//Perfect number-Sum of factors excluding the  number is equal to the number
 #include <stdio.h>
 int main() 
 {
